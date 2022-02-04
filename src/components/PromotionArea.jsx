@@ -4,7 +4,7 @@ const PromotionArea = () => {
   return (
     <Container>
       <Carousel>
-        <Carousel.Item interval={1000}>
+        <Carousel.Item interval={3000}>
           <img
             className='d-block'
             style={{ height: '100vh', width: '100%' }}
@@ -16,7 +16,7 @@ const PromotionArea = () => {
             <p>Discounts on fall collection</p>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item interval={1000}>
+        <Carousel.Item interval={3000}>
           <img
             className='d-block'
             style={{ height: '100vh', width: '100%' }}
@@ -28,7 +28,7 @@ const PromotionArea = () => {
             <p>Discounts on fall collection</p>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item interval={1000}>
+        <Carousel.Item interval={3000}>
           <img
             className='d-block'
             style={{ height: '100vh', width: '100%' }}

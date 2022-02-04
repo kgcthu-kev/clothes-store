@@ -4,7 +4,8 @@ import Category from './Category'
 
 const Categories = () => {
   return (
-    <Container className='my-5'>
+    <Container className='mt-5'>
+      <h2 className='mb-4'>Category</h2>
       <Row xs={1} md={2} lg={4} className='g-4'>
         {categories.map((item) => (
           <Category key={item.id} img={item.img} title={item.title} />

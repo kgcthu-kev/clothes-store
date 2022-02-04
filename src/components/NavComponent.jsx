@@ -1,13 +1,6 @@
-import { BsCart2 } from 'react-icons/bs'
-import {
-  Badge,
-  Button,
-  Container,
-  Nav,
-  Navbar,
-  NavDropdown,
-} from 'react-bootstrap'
+import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
+import { FaShoppingCart, FaHeart } from 'react-icons/fa'
 
 const NavComponent = () => {
   return (
@@ -27,35 +20,31 @@ const NavComponent = () => {
               About
             </Nav.Link>
 
-            <NavDropdown title='Search' id='collasible-nav-dropdown'>
+            <NavDropdown title='Category' id='collasible-nav-dropdown'>
               <NavDropdown.Item as={Link} to='/products'>
                 All Products
               </NavDropdown.Item>
-
               <NavDropdown.Divider />
-
               <NavDropdown.Item as={Link} to='/products/clothings'>
                 Clothings
               </NavDropdown.Item>
-
               <NavDropdown.Item as={Link} to='/products/shoes'>
                 Shoes
               </NavDropdown.Item>
-
               <NavDropdown.Item as={Link} to='/products/shirts'>
                 Shirts
               </NavDropdown.Item>
-
               <NavDropdown.Item as={Link} to='/products/skirts'>
                 Skirts
               </NavDropdown.Item>
             </NavDropdown>
           </Nav>
           <Nav>
-            <Nav.Link href='#deets'>
-              <Button variant='dark'>
-                <BsCart2 size={20} /> <Badge bg='primary'>9</Badge>
-              </Button>
+            <Nav.Link>
+              <FaHeart size={25} />
+            </Nav.Link>
+            <Nav.Link>
+              <FaShoppingCart size={25} />
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

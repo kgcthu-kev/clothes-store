@@ -20,3 +20,150 @@ export const categories = [
     title: 'RUNNING SHOES',
   },
 ]
+
+export const items = [
+  {
+    id: 1,
+    type: 'shirt',
+    img: 'https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/427917001/item/goods_56_427917001.jpg?width=1008&impolicy=quality_75',
+    price: 3.99,
+  },
+  {
+    id: 2,
+    type: 'shirt',
+    img: 'https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/427917001/item/goods_56_427917001.jpg?width=1008&impolicy=quality_75',
+    price: 3.99,
+  },
+  {
+    id: 3,
+    type: 'shirt',
+    img: 'https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/427917001/item/goods_56_427917001.jpg?width=1008&impolicy=quality_75',
+    price: 3.99,
+  },
+  {
+    id: 4,
+    type: 'shirt',
+    img: 'https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/427917001/item/goods_56_427917001.jpg?width=1008&impolicy=quality_75',
+    price: 3.99,
+  },
+  {
+    id: 5,
+    type: 'shirt',
+    img: 'https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/427917001/item/goods_56_427917001.jpg?width=1008&impolicy=quality_75',
+    price: 3.99,
+  },
+  {
+    id: 6,
+    type: 'shirt',
+    img: 'https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/427917001/item/goods_56_427917001.jpg?width=1008&impolicy=quality_75',
+    price: 3.99,
+  },
+  {
+    id: 7,
+    type: 'shirt',
+    img: 'https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/427917001/item/goods_56_427917001.jpg?width=1008&impolicy=quality_75',
+    price: 3.99,
+  },
+  {
+    id: 8,
+    type: 'shirt',
+    img: 'https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/427917001/item/goods_56_427917001.jpg?width=1008&impolicy=quality_75',
+    price: 3.99,
+  },
+  {
+    id: 9,
+    type: 'shirt',
+    img: 'https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/427917001/item/goods_56_427917001.jpg?width=1008&impolicy=quality_75',
+    price: 3.99,
+  },
+  {
+    id: 10,
+    type: 'shirt',
+    img: 'https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/427917001/item/goods_56_427917001.jpg?width=1008&impolicy=quality_75',
+    price: 3.99,
+  },
+]
+
+// export const hotItems = [
+//   {
+//     id: 1,
+//     type: 'shirt',
+//     img: 'https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/427917001/item/goods_56_427917001.jpg?width=1008&impolicy=quality_75',
+//     originalPrice: 3.99,
+//     dicountedPrice: 2.99,
+//   },
+//   {
+//     id: 2,
+//     type: 'shirt',
+//     img: 'https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/427917001/item/goods_56_427917001.jpg?width=1008&impolicy=quality_75',
+//     originalPrice: 3.99,
+//     dicountedPrice: 2.99,
+//   },
+//   {
+//     id: 3,
+//     type: 'shirt',
+//     img: 'https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/427917001/item/goods_56_427917001.jpg?width=1008&impolicy=quality_75',
+//     originalPrice: 3.99,
+//     dicountedPrice: 2.99,
+//   },
+//   {
+//     id: 4,
+//     type: 'shirt',
+//     img: 'https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/427917001/item/goods_56_427917001.jpg?width=1008&impolicy=quality_75',
+//     originalPrice: 3.99,
+//     dicountedPrice: 2.99,
+//   },
+//   {
+//     id: 5,
+//     type: 'shirt',
+//     img: 'https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/427917001/item/goods_56_427917001.jpg?width=1008&impolicy=quality_75',
+//     originalPrice: 3.99,
+//     dicountedPrice: 2.99,
+//   },
+//   {
+//     id: 6,
+//     type: 'shirt',
+//     img: 'https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/427917001/item/goods_56_427917001.jpg?width=1008&impolicy=quality_75',
+//     originalPrice: 3.99,
+//     dicountedPrice: 2.99,
+//   },
+// ]
+
+export const newItems = [
+  {
+    id: 1,
+    type: 'shirt',
+    img: 'https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/427917001/item/goods_56_427917001.jpg?width=1008&impolicy=quality_75',
+    price: 3.99,
+  },
+  {
+    id: 2,
+    type: 'shirt',
+    img: 'https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/427917001/item/goods_56_427917001.jpg?width=1008&impolicy=quality_75',
+    price: 3.99,
+  },
+  {
+    id: 3,
+    type: 'shirt',
+    img: 'https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/427917001/item/goods_56_427917001.jpg?width=1008&impolicy=quality_75',
+    price: 3.99,
+  },
+  {
+    id: 4,
+    type: 'shirt',
+    img: 'https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/427917001/item/goods_56_427917001.jpg?width=1008&impolicy=quality_75',
+    price: 3.99,
+  },
+  {
+    id: 5,
+    type: 'shirt',
+    img: 'https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/427917001/item/goods_56_427917001.jpg?width=1008&impolicy=quality_75',
+    price: 3.99,
+  },
+  {
+    id: 6,
+    type: 'shirt',
+    img: 'https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/427917001/item/goods_56_427917001.jpg?width=1008&impolicy=quality_75',
+    price: 3.99,
+  },
+]

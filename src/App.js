@@ -5,6 +5,13 @@ import About from './pages/About'
 import Product from './pages/Product'
 import Products from './pages/Products'
 import NavComponent from './components/NavComponent'
+import Footer from './components/Footer'
+
+import 'swiper/css/bundle'
+// Styles must use direct files imports
+// import 'swiper/swiper.scss' // core Swiper
+// import 'swiper/modules/navigation/navigation.scss' // Navigation module
+// import 'swiper/modules/pagination/pagination.scss' // Pagination module
 
 function App() {
   return (
@@ -16,6 +23,7 @@ function App() {
         <Route path='/products' element={<Products />} />
         <Route path='/products/:product' element={<Product />} />
       </Routes>
+      <Footer />
     </Router>
   )
 }
