@@ -3,7 +3,7 @@ import { Button, Card } from 'react-bootstrap'
 const SingleItem = ({ type, img, price }) => {
   return (
     <>
-      <Card style={{ width: '12rem', textAlign: 'center' }}>
+      <Card style={{ textAlign: 'center' }}>
         <Card.Img variant='top' src={img} />
         <Card.Body>
           <Card.Title>${price}</Card.Title>
