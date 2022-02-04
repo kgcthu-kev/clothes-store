@@ -54,30 +54,90 @@ export const items = [
   },
   {
     id: 6,
-    type: 'shirt',
-    img: 'https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/427917001/item/goods_56_427917001.jpg?width=1008&impolicy=quality_75',
+    type: 'skirt',
+    img: 'https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/448502/item/goods_70_448502.jpg?width=380',
     price: 3.99,
   },
   {
     id: 7,
-    type: 'shirt',
-    img: 'https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/427917001/item/goods_56_427917001.jpg?width=1008&impolicy=quality_75',
+    type: 'skirt',
+    img: 'https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/448502/item/goods_70_448502.jpg?width=380',
     price: 3.99,
   },
   {
     id: 8,
-    type: 'shirt',
-    img: 'https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/427917001/item/goods_56_427917001.jpg?width=1008&impolicy=quality_75',
+    type: 'skirt',
+    img: 'https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/448502/item/goods_70_448502.jpg?width=380',
     price: 3.99,
   },
   {
     id: 9,
+    type: 'skirt',
+    img: 'https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/448502/item/goods_70_448502.jpg?width=380',
+    price: 3.99,
+  },
+  {
+    id: 10,
+    type: 'skirt',
+    img: 'https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/448502/item/goods_70_448502.jpg?width=380',
+    price: 3.99,
+  },
+  {
+    id: 11,
+    type: 'shoes',
+    img: 'https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/442233/item/goods_32_442233.jpg?width=380',
+    price: 3.99,
+  },
+  {
+    id: 12,
+    type: 'shoes',
+    img: 'https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/442233/item/goods_32_442233.jpg?width=380',
+    price: 3.99,
+  },
+  {
+    id: 13,
+    type: 'shoes',
+    img: 'https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/442233/item/goods_32_442233.jpg?width=380',
+    price: 3.99,
+  },
+  {
+    id: 14,
+    type: 'shoes',
+    img: 'https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/442233/item/goods_32_442233.jpg?width=380',
+    price: 3.99,
+  },
+  {
+    id: 15,
+    type: 'shoes',
+    img: 'https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/442233/item/goods_32_442233.jpg?width=380',
+    price: 3.99,
+  },
+  {
+    id: 16,
     type: 'shirt',
     img: 'https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/427917001/item/goods_56_427917001.jpg?width=1008&impolicy=quality_75',
     price: 3.99,
   },
   {
-    id: 10,
+    id: 17,
+    type: 'shirt',
+    img: 'https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/427917001/item/goods_56_427917001.jpg?width=1008&impolicy=quality_75',
+    price: 3.99,
+  },
+  {
+    id: 18,
+    type: 'shirt',
+    img: 'https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/427917001/item/goods_56_427917001.jpg?width=1008&impolicy=quality_75',
+    price: 3.99,
+  },
+  {
+    id: 19,
+    type: 'shirt',
+    img: 'https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/427917001/item/goods_56_427917001.jpg?width=1008&impolicy=quality_75',
+    price: 3.99,
+  },
+  {
+    id: 20,
     type: 'shirt',
     img: 'https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/427917001/item/goods_56_427917001.jpg?width=1008&impolicy=quality_75',
     price: 3.99,
@@ -167,3 +227,5 @@ export const newItems = [
     price: 3.99,
   },
 ]
+
+// imgaes credited to uniq

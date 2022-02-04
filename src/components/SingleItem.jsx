@@ -1,6 +1,6 @@
 import { Button, Card } from 'react-bootstrap'
 
-const SlideItem = ({ type, img, price }) => {
+const SingleItem = ({ type, img, price }) => {
   return (
     <>
       <Card style={{ width: '12rem', textAlign: 'center' }}>
@@ -17,4 +17,4 @@ const SlideItem = ({ type, img, price }) => {
   )
 }
 
-export default SlideItem
+export default SingleItem

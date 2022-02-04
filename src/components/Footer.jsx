@@ -1,4 +1,3 @@
-import { Form } from 'react-bootstrap'
 import {
   FaFacebook,
   FaTwitter,
@@ -10,6 +9,7 @@ import {
 const Footer = () => {
   return (
     <footer className='bg-dark text-center text-white'>
+      {/* social media */}
       <section className='mb-4 container p-4'>
         <a
           className='btn btn-outline-light rounded-circle m-1'
@@ -51,10 +51,8 @@ const Footer = () => {
           <FaInstagram />
         </a>
       </section>
-      <Form>
-        <Form.Label>Email address</Form.Label>
-        <Form.Control type='email' placeholder='Enter email' />
-      </Form>
+
+      {/* Copyright */}
       <div className='text-center p-3'>
         © 2022 Copyright by{' '}
         <a

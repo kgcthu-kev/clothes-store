@@ -25,17 +25,14 @@ const NavComponent = () => {
                 All Products
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item as={Link} to='/products/clothings'>
-                Clothings
-              </NavDropdown.Item>
-              <NavDropdown.Item as={Link} to='/products/shoes'>
-                Shoes
-              </NavDropdown.Item>
               <NavDropdown.Item as={Link} to='/products/shirts'>
                 Shirts
               </NavDropdown.Item>
               <NavDropdown.Item as={Link} to='/products/skirts'>
                 Skirts
+              </NavDropdown.Item>
+              <NavDropdown.Item as={Link} to='/products/shoes'>
+                Shoes
               </NavDropdown.Item>
             </NavDropdown>
           </Nav>
