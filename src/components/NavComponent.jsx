@@ -2,12 +2,12 @@ import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import { FaShoppingCart, FaHeart } from 'react-icons/fa'
 
-const NavComponent = ({ showCart, setShowCart }) => {
+const NavComponent = ({ showCart, setShowCart, showWish, setShowWish }) => {
   return (
     <Navbar collapseOnSelect expand='lg' bg='light' variant='light'>
       <Container>
-        <Navbar.Brand as={Link} to='/'>
-          WitSone
+        <Navbar.Brand as={Link} to='/' style={{ fontWeight: 'bold' }}>
+          FASHIONIFY
         </Navbar.Brand>
         <Navbar.Toggle aria-controls='responsive-navbar-nav' />
         <Navbar.Collapse id='responsive-navbar-nav'>
@@ -40,7 +40,7 @@ const NavComponent = ({ showCart, setShowCart }) => {
             </Nav.Link>
           </Nav>
           <Nav>
-            <Nav.Link>
+            <Nav.Link onClick={() => setShowWish(!showWish)}>
               <FaHeart size={25} />
             </Nav.Link>
             <Nav.Link onClick={() => setShowCart(!showCart)}>

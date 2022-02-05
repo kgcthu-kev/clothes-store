@@ -6,7 +6,7 @@ import 'swiper/css'
 import 'swiper/css/navigation'
 import { Container } from 'react-bootstrap'
 import { Navigation } from 'swiper'
-import { newItems } from '../data'
+import { items } from '../data'
 import SingleItem from './SingleItem'
 
 const NewItems = () => {
@@ -33,11 +33,13 @@ const NewItems = () => {
           },
         }}
       >
-        {newItems.map((item) => (
-          <SwiperSlide key={item.id}>
-            <SingleItem {...item} />
-          </SwiperSlide>
-        ))}
+        {items
+          .filter((item) => item.new)
+          .map((item) => (
+            <SwiperSlide key={item.id}>
+              <SingleItem {...item} />
+            </SwiperSlide>
+          ))}
       </Swiper>
     </Container>
   )
