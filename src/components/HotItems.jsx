@@ -13,13 +13,25 @@ const HotItems = () => {
   return (
     <Container className='my-5'>
       <h2 className='mb-4'>Hot Deals</h2>
-      <div class='swiper-button-prev-unique'></div>
-      <div class='swiper-button-next-unique'></div>
       <Swiper
         navigation={true}
         modules={[Navigation]}
         spaceBetween={45}
         slidesPerView={5}
+        breakpoints={{
+          300: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 3,
+            spaceBetween: 50,
+          },
+          1024: {
+            slidesPerView: 5,
+            spaceBetween: 50,
+          },
+        }}
         onSlideChange={() => console.log('slide change')}
         onSwiper={(swiper) => console.log(swiper)}
       >

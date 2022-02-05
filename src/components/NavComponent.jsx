@@ -35,6 +35,9 @@ const NavComponent = () => {
                 Shoes
               </NavDropdown.Item>
             </NavDropdown>
+            <Nav.Link as={Link} to='/contact'>
+              Contact
+            </Nav.Link>
           </Nav>
           <Nav>
             <Nav.Link>

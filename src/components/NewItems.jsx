@@ -19,13 +19,13 @@ const NewItems = () => {
         spaceBetween={45}
         slidesPerView={5}
         breakpoints={{
-          640: {
+          300: {
             slidesPerView: 2,
             spaceBetween: 20,
           },
           768: {
-            slidesPerView: 4,
-            spaceBetween: 40,
+            slidesPerView: 3,
+            spaceBetween: 50,
           },
           1024: {
             slidesPerView: 5,
