@@ -17,8 +17,8 @@ const Product = () => {
         {items
           .filter((item) => item.type === productType)
           .map((item) => (
-            <Col>
-              <SingleItem key={item.id} {...item} />
+            <Col key={item.id}>
+              <SingleItem {...item} />
             </Col>
           ))}
       </Row>
