@@ -1,7 +1,7 @@
 import { Button, Card, Container } from 'react-bootstrap'
 import useShop from '../contexts/ShopContext'
 const Cart = () => {
-  const { products, total, removeFromCart } = useShop()
+  const { products, total } = useShop()
   return (
     <Container className='py-3 my-4 border'>
       <h2>Your Bag</h2>
