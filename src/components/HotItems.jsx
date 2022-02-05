@@ -32,8 +32,6 @@ const HotItems = () => {
             spaceBetween: 50,
           },
         }}
-        onSlideChange={() => console.log('slide change')}
-        onSwiper={(swiper) => console.log(swiper)}
       >
         {newItems.map((item) => (
           <SwiperSlide key={item.id}>
