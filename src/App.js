@@ -10,6 +10,7 @@ import NavComponent from './components/NavComponent'
 import Footer from './components/Footer'
 
 import 'swiper/css/bundle'
+import { ShopProvider } from './context/ShopContext'
 // Styles must use direct files imports
 // import 'swiper/swiper.scss' // core Swiper
 // import 'swiper/modules/navigation/navigation.scss' // Navigation module
@@ -17,17 +18,19 @@ import 'swiper/css/bundle'
 
 function App() {
   return (
-    <Router>
-      <NavComponent />
-      <Routes>
-        <Route index element={<Home />} />
-        <Route path='/about' element={<About />} />
-        <Route path='/contact' element={<Contact />} />
-        <Route path='/products' element={<Products />} />
-        <Route path='/products/:productType' element={<Product />} />
-      </Routes>
-      <Footer />
-    </Router>
+    <ShopProvider>
+      <Router>
+        <NavComponent />
+        <Routes>
+          <Route index element={<Home />} />
+          <Route path='/about' element={<About />} />
+          <Route path='/contact' element={<Contact />} />
+          <Route path='/products' element={<Products />} />
+          <Route path='/products/:productType' element={<Product />} />
+        </Routes>
+        <Footer />
+      </Router>
+    </ShopProvider>
   )
 }
 
