@@ -44,7 +44,7 @@ export const ShopProvider = ({ children }) => {
   }
 
   const value = {
-    total: state.total,
+    total: state.total.toFixed(2),
     products: state.products,
     addToCart,
     removeFromCart,

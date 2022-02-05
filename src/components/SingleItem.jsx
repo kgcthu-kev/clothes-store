@@ -32,10 +32,14 @@ const SingleItem = ({ type, img, price, id }) => {
         <Card.Body>
           <Card.Title>${price}</Card.Title>
           <div className='d-flex flex-column'>
-            <Button className='mb-2' onClick={handleClick}>
+            <Button
+              className='mb-2'
+              onClick={handleClick}
+              variant={isInCart ? 'danger' : 'primary'}
+            >
               {isInCart ? 'Remove From Cart' : 'Add to cart'}
             </Button>
-            <Button>Add to wishlist</Button>
+            <Button variant='primary'>Add to wishlist</Button>
           </div>
         </Card.Body>
       </Card>

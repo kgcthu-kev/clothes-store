@@ -2,7 +2,7 @@ import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import { FaShoppingCart, FaHeart } from 'react-icons/fa'
 
-const NavComponent = () => {
+const NavComponent = ({ showCart, setShowCart }) => {
   return (
     <Navbar collapseOnSelect expand='lg' bg='light' variant='light'>
       <Container>
@@ -43,7 +43,7 @@ const NavComponent = () => {
             <Nav.Link>
               <FaHeart size={25} />
             </Nav.Link>
-            <Nav.Link>
+            <Nav.Link onClick={() => setShowCart(!showCart)}>
               <FaShoppingCart size={25} />
             </Nav.Link>
           </Nav>

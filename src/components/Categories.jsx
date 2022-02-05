@@ -8,7 +8,12 @@ const Categories = () => {
       <h2 className='mb-4'>Category</h2>
       <Row xs={1} md={2} lg={4} className='g-4'>
         {categories.map((item) => (
-          <Category key={item.id} img={item.img} title={item.title} />
+          <Category
+            key={item.id}
+            img={item.img}
+            title={item.title}
+            url={item.url}
+          />
         ))}
       </Row>
     </Container>
