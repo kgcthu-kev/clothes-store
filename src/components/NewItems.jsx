@@ -12,7 +12,7 @@ import SingleItem from './SingleItem'
 const NewItems = () => {
   return (
     <Container className='mt-5'>
-      <h2 className='mb-4'>New Arrivals</h2>
+      <h3 className='mb-4'>New Arrivals</h3>
       <Swiper
         navigation={true}
         modules={[Navigation]}

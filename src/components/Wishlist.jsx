@@ -6,9 +6,9 @@ const Wishlist = ({ showWish, setShowWish }) => {
   return (
     <Container className='py-3 my-4 border'>
       <div className='d-flex justify-content-between'>
-        <h2>
-          {wishProducts.length > 0 ? 'Your Wishlist' : 'Your Wishlist is Empty'}
-        </h2>
+        <h3>
+          {wishProducts.length > 0 ? 'Your wishlist' : 'Your wishlist is empty'}
+        </h3>
 
         <FaTimes
           size={45}

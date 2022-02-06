@@ -13,7 +13,7 @@ const Footer = () => {
       <section className='mb-4 container p-4'>
         <a
           className='btn btn-outline-light rounded-circle m-1'
-          href='#!'
+          href='https://www.facebook.com/kgcthu.kev/'
           role='button'
         >
           <FaFacebook />
@@ -21,7 +21,7 @@ const Footer = () => {
 
         <a
           className='btn btn-outline-light rounded-circle m-1'
-          href='#!'
+          href='https://twitter.com/kgcthu'
           role='button'
         >
           <FaTwitter />
@@ -29,7 +29,7 @@ const Footer = () => {
 
         <a
           className='btn btn-outline-light rounded-circle m-1'
-          href='#!'
+          href='https://github.com/kgcthu-kev'
           role='button'
         >
           <FaGithub />
@@ -37,7 +37,7 @@ const Footer = () => {
 
         <a
           className='btn btn-outline-light rounded-circle m-1'
-          href='#!'
+          href='https://www.linkedin.com/in/kaung-si-thu-518759224/'
           role='button'
         >
           <FaLinkedin />
@@ -45,7 +45,7 @@ const Footer = () => {
 
         <a
           className='btn btn-outline-light rounded-circle m-1'
-          href='#!'
+          href='https://www.instagram.com/kgcthu/'
           role='button'
         >
           <FaInstagram />

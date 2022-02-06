@@ -7,7 +7,7 @@ const NavComponent = ({ showCart, setShowCart, showWish, setShowWish }) => {
     <Navbar collapseOnSelect expand='lg' bg='light' variant='light'>
       <Container>
         <Navbar.Brand as={Link} to='/' style={{ fontWeight: 'bold' }}>
-          FASHIONIFY
+          <h2>FASHIONIFY</h2>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls='responsive-navbar-nav' />
         <Navbar.Collapse id='responsive-navbar-nav'>

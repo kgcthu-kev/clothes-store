@@ -12,7 +12,7 @@ const Product = () => {
 
   return (
     <Container className='my-4'>
-      <h2>{capitalizeFirstLetter(productType)}</h2>
+      <h3 className='mb-4'>{capitalizeFirstLetter(productType)}</h3>
       <Row xs={1} md={2} lg={5} className='g-4'>
         {items
           .filter((item) => item.type === productType)

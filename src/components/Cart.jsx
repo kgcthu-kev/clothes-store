@@ -6,7 +6,7 @@ const Cart = ({ showCart, setShowCart }) => {
   return (
     <Container className='py-3 my-4 border'>
       <div className='d-flex justify-content-between'>
-        <h2>{products.length > 0 ? 'Your Bag' : 'Your Bag is Empty'}</h2>
+        <h3>{products.length > 0 ? 'Your bag' : 'Your bag is empty'}</h3>
 
         <FaTimes
           size={45}
